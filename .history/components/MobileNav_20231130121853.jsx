@@ -19,8 +19,8 @@ const MobileNav = () => {
               containerStyles="flex flex-col items-center gap-y-6"
               linkStyles="text-2xl"
             />
-          </div>
             <Socials containerStyles='flex gap-x-4' iconStyles='text-2xl'/>
+          </div>
         </div>
       </SheetContent>
     </Sheet>
