@@ -213,7 +213,7 @@ const About = () => {
                               const { company, role, years } = item;
                               return (
                                 <div
-                                  className="flex gap-x-8 group"
+                                  className="flex gap-x-8 group items"
                                   key={index}
                                 >
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">

@@ -216,7 +216,7 @@ const About = () => {
                                   className="flex gap-x-8 group"
                                   key={index}
                                 >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                  <div className="h-[84px] w-[1px] bg-border relative ml-4">
                                     <div className="w-[11px] h-[11px] rounded-full 
                                     bg-primary absolute -left-[5px] 
                                     group-hover:translate-y-[84px] transition-all 
