@@ -213,10 +213,10 @@ const About = () => {
                               const { company, role, years } = item;
                               return (
                                 <div
-                                  className="flex gap-x-8 bg-orange-100"
+                                  className="flex flex-col gap-x-8 bg-orange-100"
                                   key={index}
                                 >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2"></div>
+                                  <div className="h-[84px]"></div>
                                   <div className="font-semibold text-xl leading-none mb-2">
                                     {company}
                                   </div>

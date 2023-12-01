@@ -207,25 +207,15 @@ const About = () => {
                           </h4>
                         </div>
                         {/* list */}
-                        <div className="flex flex-col gap-y-8">
+                        <div>
                           {getData(qualificationData, "experience").data.map(
                             (item, index) => {
                               const { company, role, years } = item;
                               return (
-                                <div
-                                  className="flex gap-x-8 bg-orange-100"
-                                  key={index}
-                                >
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2"></div>
-                                  <div className="font-semibold text-xl leading-none mb-2">
-                                    {company}
-                                  </div>
-                                  <div className="text-lg leading-none text-muted-foreground mb-4">
-                                    {role}
-                                  </div>
-                                  <div className="text-base font-medium">
-                                    {years}
-                                  </div>
+                                <div key={index}>
+                                  <div className="">{company}</div>
+                                  <div>{role}</div>
+                                  <div>{years}</div>
                                 </div>
                               );
                             }
